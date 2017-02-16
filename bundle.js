@@ -9763,7 +9763,6 @@ var Layout = (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     Layout.prototype.render = function () {
-        console.log(this.props.maintenance);
         if (this.props.maintenance) {
             return React.createElement(maintenance_component_1.Maintenance, { reason: "work in progress" });
         }
@@ -9892,7 +9891,7 @@ exports = module.exports = __webpack_require__(26)();
 
 
 // module
-exports.push([module.i, ".maintainance {\n  color: #931621;\n  width: 100%;\n  height: 100%; }\n", ""]);
+exports.push([module.i, ".maintainance {\n  padding: 0 0 0 25%;\n  color: #931621;\n  width: 100%;\n  height: 100%; }\n", ""]);
 
 // exports
 
